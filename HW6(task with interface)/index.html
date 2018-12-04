@@ -1,0 +1,71 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+<form name="" action="" id="form">
+	<legend>Create Hamburger</legend>
+		<div class="row">
+		<p>Choose Size</p>
+    <label>
+        <input type="radio"
+               name="size"
+               value="small">Small
+    </label>
+    <label>
+        <input type="radio"
+               name="size"
+               value="large">Large
+    </label>
+	<p>Choose Stuffing</p>
+	<label>
+        <input type="checkbox"
+               name="stuffing"
+               value="cheese">Cheese
+    </label>
+	<label>
+        <input type="checkbox"
+               name="stuffing"
+               value="salad">Salad
+    </label>
+	<label>
+        <input type="checkbox"
+               name="stuffing"
+               value="potato">Potato
+    </label>
+	<p>Choose Topping</p>
+	<label>
+        <input type="checkbox"
+               name="topping"
+               value="spice">Spice
+    </label>
+	<label>
+        <input type="checkbox"
+               name="topping"
+               value="mayo">Mayo
+    </label>
+
+	<div class="submit">
+			<input type="submit" value="Make Order">
+	</div>
+
+	<div id="result">
+		<div><b>Total price:</b> <span id="price">0</span> $</div>
+		<div><b>Calories:</b> <span id="calories">0</span> Kk</div>
+	</div>
+
+    <script src="main.js"></script>
+	</form>
+</body>
+
+</html>
