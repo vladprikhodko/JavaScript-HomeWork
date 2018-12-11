@@ -1,0 +1,64 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+.main {
+ margin: 20px 20px;
+ height: 100vh;
+ width: 100%;
+}
+
+.main div {
+ font-family: Roboto, sans-serif;
+ font-size: 15px;
+ color: #777777;
+ line-height: 1.4;
+ width: 700px;
+}
+
+.main__title {
+ font-family: Roboto, sans-serif;
+ font-size: 25px;
+ color: #777777;
+ line-height: 1.4;
+ margin-left: 270px;
+}
+
+.block-header {
+	margin-top: 5px;
+}
+
+.block__header-title {
+ background: #333333;
+ color: #ffffff;
+ display: block;
+ padding: 10px 40px 10px 15px;
+ position: relative;
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+.block__header-title:hover {
+ background: #0c5673;
+ }
+
+ .block__header-title::after {
+ content: "\f107";
+ font-family: "FontAwesome";
+ position: absolute;
+ right: 15px;
+ transition: 0.3s;
+}
+
+.block__header.in h2::after {
+ transform: rotate(180deg);
+}
+
+.block__header.in h2: {
+ color: #ffffff;
+ background-color: #09afdf;
+}
+
+.block__collapse {
+ display: none;
+ padding: 10px;
+ margin-bottom: 5px;
+}
